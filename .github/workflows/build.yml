@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@master
         with:
           repository: bridgecrewio/terragoat  # clone https://github.com/bridgecrewio/terragoat/
-          token: ${{ secrets.GITHUB_TOKEN }}
+#          token: ${{ secrets.GITHUB_TOKEN }}
           clean: false
           path: 'terragoat'
           run: git clone https://github.com/bridgecrewio/terragoat
